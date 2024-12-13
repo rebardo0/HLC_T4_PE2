@@ -1,0 +1,97 @@
+body 
+{
+    margin: 0;
+    background-color: #E2E5E7;
+    display: flex;
+}
+
+.Menu 
+{
+    background-color: #85CEF0;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    width: 18%;
+    position: fixed;
+    flex-direction: column;
+}
+.Menu button 
+{
+    background-color: #f0f0f0;
+    width: 75%;
+    margin-top: 25%;
+    cursor: pointer;
+    margin-bottom: -3rem;
+    border-radius: 5px;
+    border: none;
+    height: 2.5rem;
+    font-size: 0.9rem;
+}
+
+.Menu button:hover 
+{
+    background-color: #E2E5E7;
+}
+
+.container 
+{
+    background-color: #ffffff;
+    box-shadow: 0 7px 12px rgba(0, 0, 0, 0.7);
+    margin-left: 40%;
+    margin-top: 150px;
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.container input:active 
+{
+    border: 1px solid black;
+}
+
+.container button 
+{
+    width: 15%;
+    height: 200%;
+    border-radius: 5px;
+    background-color: #f8dc68;
+    border: none;
+
+}
+
+.container button:hover {
+    background-color: #c4a630;
+}
+
+.container input {
+    width: 75%;
+    height: 30%;
+    font-size: 40;
+    border-radius: 5px;
+    border: 1px solid #e4e3e8;
+}
+
+.enviar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f8f8ff;
+    align-items: center;
+    height: 30px;
+    cursor: pointer;
+}
+
+.enviar button 
+{
+    cursor: pointer;
+}
+
+.enviar button:hover
+{
+    background-color: #c4a630;
+}
+
+.cubo
+{
+    height: 500px;
+}
