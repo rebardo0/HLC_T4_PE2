@@ -1,83 +1,83 @@
 body 
 {
-    margin: 0;
+    font-family: "Nunito", serif;
     background-color: #E2E5E7;
+    margin: 0;
     display: flex;
+
 }
 
 .Menu 
 {
     background-color: #85CEF0;
+    position: fixed;
+    flex-direction: column;
     display: flex;
     align-items: center;
     min-height: 100vh;
     width: 18%;
-    position: fixed;
-    flex-direction: column;
+
 }
 .Menu button 
 {
     background-color: #f0f0f0;
-    width: 75%;
-    margin-top: 25%;
-    cursor: pointer;
-    margin-bottom: -3rem;
+    width: 70%;
+    height: 40px;
     border-radius: 5px;
     border: none;
-    height: 2.5rem;
-    font-size: 0.9rem;
+    margin-top: 15%;
+    cursor: pointer;
+
 }
 
 .Menu button:hover 
 {
-    background-color: #E2E5E7;
+    background-color: #c0c0c0;
 }
 
 .container 
 {
     background-color: #ffffff;
-    box-shadow: 0 7px 12px rgba(0, 0, 0, 0.7);
+    box-shadow: 0 9px 30px black;
     margin-left: 40%;
     margin-top: 150px;
     display: flex;
-    width: 50%;
+    width: 30%;
+    height: 610px;
     justify-content: space-around;
     flex-direction: column;
 }
 
-.container input:active 
-{
-    border: 1px solid black;
-}
-
 .container button 
 {
+    background-color: #F9DC6A;
     width: 15%;
     height: 200%;
     border-radius: 5px;
-    background-color: #f8dc68;
     border: none;
-
 }
 
-.container button:hover {
+.container button:hover 
+{
     background-color: #c4a630;
 }
 
-.container input {
+.container input 
+{
+    border: 1px solid #e4e3e8;
     width: 75%;
-    height: 30%;
+    height: 45px;
     font-size: 40;
     border-radius: 5px;
-    border: 1px solid #e4e3e8;
 }
 
-.enviar {
+.enviar 
+{
+    background-color: #f8f8ff;
     display: flex;
     justify-content: space-around;
-    background-color: #f8f8ff;
     align-items: center;
-    height: 30px;
+    height: 25px;
     cursor: pointer;
 }
 
@@ -93,5 +93,5 @@ body
 
 .cubo
 {
-    height: 500px;
+    height: 490px;
 }
